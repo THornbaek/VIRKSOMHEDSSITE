@@ -6,10 +6,56 @@
     <title>Kontakt</title>
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header></header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="contact-form">
+        <h2>Kontakt</h2>
+        <p>
+          Du er altid velkommen til at kontakte mig her på mail eller via
+          Instagram, hvis du har nogen generelle spørgsmål omkring min kunst,
+          eller hvis du ønsker at lave en forespørgsel til et værk, du ønsker.
+        </p>
+
+        <form action="#" method="post">
+          <label for="fornavn">Fornavn:</label>
+          <input type="text" id="fornavn" name="fornavn" required />
+
+          <label for="efternavn">Efternavn:</label>
+          <input type="text" id="efternavn" name="efternavn" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="besked">Indtast venligst din besked her:</label>
+          <textarea id="besked" name="besked" rows="4" required></textarea>
+
+          <button type="submit">Send besked</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="logo">Dit Logo</div>
+        <div class="contact-info">
+          <p>
+            <a href="mailto:info@oliviajuul.com">info@oliviajuul.com</a>
+          </p>
+          <p>CVR: 41689846</p>
+          <p>
+            <a href="https://www.instagram.com/oliviajuulstudio/"
+              ><img
+                src="imgs/instagram-logo.png"
+                alt="instagram logo"
+                width="20"
+                height="20"
+            /></a>
+          </p>
+        </div>
+        <p>&copy; 2023 by oliviajuul</p>
+      </div>
+    </footer>
   </body>
 </html>
